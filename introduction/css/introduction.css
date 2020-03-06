@@ -1,0 +1,61 @@
+#div-body{
+  width: 1100px;
+  position: relative;
+  margin: 0px auto;
+}
+section{
+  margin: 0px auto;
+  margin-top: 20px;
+  width: 1100px;
+  position: relative;
+}
+#div_introduction{
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+#div_header{
+  margin: 35px auto;
+  width: 800px;
+  height: 50px;
+  text-align: center;
+}
+#aside_introduction{
+  padding-top: 71px;
+  background-color: white;
+}
+#div_introduction span,#div_header span{
+  color: #F23005;
+  font-weight: 700;  
+  font-size: 20px;
+  font-style: italic;
+}
+.span_em{
+  font-family: 'Noto Sans KR';
+  font-weight: 700;
+  color: coral;
+  font-size: 20px;
+
+}
+.one{
+  color: coral;
+  font-size: 20px;
+}
+.one b{
+  font-style: italic;
+  font-weight: bold;
+}
+.two,#div_header b span{
+  font-size: 40px;
+  font-weight: bold;
+}
+.two{
+  margin-top: 24px;
+  font-family: '휴먼명조';
+}
+.master{
+  margin: 150px 0px;
+}
+body{
+  font-size: 18px;
+}

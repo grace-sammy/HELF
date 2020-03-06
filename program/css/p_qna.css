@@ -1,0 +1,50 @@
+#qna_content {
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#qna_id1, #qna_id2 {
+  display: inline;
+  width: 100px;
+}
+
+#write_row2 {
+  margin-top: 15px;
+}
+
+#qna_subject {
+  margin-top: 5px;
+  width: 500px;
+  height: 25px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+}
+
+textarea {
+  margin-top: 5px;
+  margin-bottom: 7px;
+  resize: none;
+  width: 500px;
+  height: 170px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+}
+
+input[type=submit], input[type=button] {
+  width: 80px;
+  height: 30px;
+  border-radius: 2px;
+}
+
+input[type=submit] {
+  background-color: #F23005;
+  border: 1px solid #F23005;
+  color: white;
+}
+
+input[type=button] {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  color: white;
+}

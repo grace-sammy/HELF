@@ -1,0 +1,26 @@
+
+
+.thumbnail {
+  width:200px;
+  height: 200px;
+  position: relative;
+  border:1px solid red;
+}
+
+.thumbnail .centered {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translate(50%,50%);
+  border:1px solid yellow;
+}
+
+.thumbnail .centered img {
+    max-width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+  }

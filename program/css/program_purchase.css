@@ -1,0 +1,134 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.clear{
+  display: block;
+  height: 10px;
+  clear: both;
+}
+.item_all{
+  position: relative;
+  width: 830px;
+  margin: 0px auto;
+}
+.div_item1{
+  width: 828px;
+  border: 1px solid #e6e6e6;
+}
+.div_item1 table th{
+  padding: 10px 15px;
+  background-color: #f3f4f8;
+}
+.div_item1 table td{
+  text-align: center;
+  padding: 20px 15px 10px;
+}
+.div_center{
+  padding: 20px;
+}
+.h{
+  padding: 10px 12px;
+  background:#f3f4f8;
+}
+.div_body{
+  padding: 20px;
+}
+#title1{
+  width: 100px;
+}
+#title2{
+  width: 300px;
+}
+#title3{
+  width: 75px;
+}
+#title4{
+  width: 80px;
+}
+#program{
+  text-align:left;
+}
+.content{
+  text-align:center;
+}
+#program .div_img{
+float: left;
+}
+#program .div_img img{
+  display: inline-block;
+  width: 100px;
+}
+.div_item2{border: 1px solid #e6e6e6; height: 170px;}
+.item2_left{
+width: 330px;
+  float: left;
+  padding: 0px 15px;
+}
+.item2_right{
+  width: 330px;
+  float: left;
+  padding: 0px 15px;
+}
+.item2_right a{color: #f26656;
+    text-decoration: none;}
+.item2_right button{
+  width: 100%;
+  background-color: #ca0;
+  padding: 15px;
+}
+.left{float: left; width: 50%; padding: 0px 30px 0px 15px}
+.right{float: left; width: 41%;}
+.left .hi{padding: 0px 15px; width: 70%;}
+.left .hi button{float: right;}
+.div_item4{border: 1px solid #e6e6e6;}
+.div_item4 .div_body ul{list-style: none;}
+.div_item4 .div_body ul li{
+  padding-right: 30px;
+  display: inline-block;
+}
+.div_item4 .div_body ul li img{height: 20px; border-radius: 6px;}
+.div_item4 .div_body ul li input{width: 15px; height: 15px;}
+.div_item5{ width: 100%; height: 100px;}
+.position-relative{
+  width: 65%;
+  float: left;
+}
+.btn{display: inline-block; width: 200px; padding: 0px 15px;}
+.btn a{width: 100%; display: block;}
+.btn a button{
+  width: 100%;
+  height: 52px;
+  display: block;
+  font-weight: 500;
+    text-align: center;
+    color: white;
+    background-color: #F23005;
+    border:1px solid white;
+    border-radius: 2px;
+  }
+  .item1_div{float: left;}
+  .item2_div{float: left; padding-left: 20px;}
+.item2_div img{
+  width: 120px;
+  height: 90px;
+}
+#btn_back{
+display: inline-block;
+}
+#btn_back button{
+  width: 200px;
+height: 52px;
+display: block;
+font-weight: 500;
+text-align: center;
+color: #F23005;
+background-color: white;
+border:1px solid #F23005;
+border-radius: 2px;
+}
+.btn_center{
+  width: 500px;
+  text-align: center;
+  margin: 0px auto;
+}

@@ -1,0 +1,185 @@
+/* table, td, tr {
+  border: 1px solid gray;
+  border-collapse: collapse;
+} */
+/* 프로그램 관리 css */
+.collapsible-header {
+  display: block !important;
+  width: 845px;
+  height: 45px;
+  background-color: pink;
+}
+
+.collapsible-header #subjects {
+  display: inline-block;
+  float: left;
+  font-size: 17px !important;
+  margin-left: 7px;
+  border-radius: 2px;
+}
+
+.collapsible-header #shop_type {
+  display: inline-block;
+  float: right;
+  font-size: 14px !important;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+.program_modify_form #options {
+  width: 275px;
+  height: 28px;
+}
+
+.program_modify_form #prices {
+  width: 140px;
+  height: 28px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.program_modify_form button {
+  width: 65px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  background-color: #F2F2F2;
+}
+
+/* 결제 관리 css */
+#pay_ul {
+  clear: both;
+  padding-top: 15px;
+  width: 870px;
+  text-align: center;
+  font-size: 15px;
+}
+
+#pay_ul span {
+  height: 30px;
+}
+
+#pay_first_li {
+  height: 40px;
+  background-color: #F23005;
+  border-radius: 2px;
+  color: white;
+  padding-bottom: 0px !important;
+}
+
+#pay_first_li span {
+  padding-top: 10px;
+}
+
+#pay_ul li {
+  display: inline-block;
+  width: 870px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px #dddddd;
+}
+
+#pay_ul select {
+  width: 80px;
+  height: 28px;
+  border: 0px;
+}
+
+.btn_modify {
+  width: 55px;
+  height: 27px;
+  background-color: white;
+  border: 1px solid #F23005;
+  color: #F23005;
+  border-radius: 2px;
+}
+
+/* search */
+#list_search {
+  float: right;
+  height: 30px;
+  padding-top: 10px;
+}
+
+#list_search select {
+  float: left;
+  width: 80px;
+  height: 28px;
+  border: solid 1px #cccccc;
+  border-radius: 2px;
+}
+
+#list_search #list_search4 {
+  float: left;
+  margin-left: 3px;
+}
+
+#list_search #list_search4 input {
+  width: 125px;
+  height: 26px;
+  border: solid 1px #cccccc;
+  border-radius: 2px;
+}
+
+#list_search #list_search5 {
+  float: left;
+  margin-left: 5px;
+  margin-top: 1px;
+}
+
+#list_search #list_search6 {
+  float: left;
+  margin-left: 5px;
+  margin-top: 1px;
+}
+
+input[type=submit], input[type=button] {
+  width: 60px;
+  height: 29px;
+  border-radius: 2px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  margin-top: -1px;
+}
+
+.col1 {
+  width: 160px;
+  float: left;
+}
+
+.col2 {
+  width: 90px;
+  float: left;
+}
+
+.col3 {
+  width: 60px;
+  float: left;
+}
+
+.col4 {
+  width: 100px;
+  float: left;
+}
+
+.col5 {
+  width: 170px;
+  float: left;
+}
+
+.col6 {
+  width: 100px;
+  float: left;
+}
+
+.col7 {
+  width: 100px;
+  float: left;
+}
+
+.col8 {
+  width: 60px;
+  float: left;
+}
+#page_button{text-align: center;}

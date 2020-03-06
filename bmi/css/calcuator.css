@@ -1,0 +1,64 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.div_calculator{
+  width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+table th{
+  background-color: lightgray;
+  font-size: 12px;
+
+}
+table{
+  margin: 0px auto;
+}
+table td{
+  padding: 8px;
+}
+.graph{
+  width: 600px;
+  height: 100px;
+  position: relative;
+  margin: 0px auto;
+}
+.inner{
+  position: absolute;
+    left: 8px;
+    top: 6px;
+    width: 500px;
+}
+.inner #bar{
+  width: 500px;
+}
+.div_bmi ul{
+  padding-bottom: 20px;
+}
+.div_bmi span{
+  padding-left: 10px;
+}
+.bmi-wrap{
+ width: 700px;
+ position: relative;
+}
+.div_bmi{
+  float: left;
+  padding: 40px 0px 0px;
+}
+.div-bmi span{
+    padding-left: 10px;
+}
+.div-bmi ul{
+  padding-bottom: 20px;
+}
+.div-bmi ul li label{
+  width: 220px;
+}
+.bmi{
+  text-align: center;
+}
+#bmi_text{
+  font-size: 18px;
+}

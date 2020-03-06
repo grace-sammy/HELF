@@ -1,0 +1,8 @@
+/* 게시판 목록보기(board_list.php) */
+#review_list li { padding: 10px 0; border-bottom: solid 1px #dddddd; }
+#review_list span { display: inline-block; text-align: center;}
+#review_list .col1 { width: 150px; }
+#review_list .col2 { width: 475px; }
+#review_list .col3 { width: 80px; }
+#page_num {	text-align: center;	margin: 30px 0 }
+#page_num li { display: inline; }

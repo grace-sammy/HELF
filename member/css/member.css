@@ -1,0 +1,359 @@
+input {
+  box-sizing: border-box;
+  border: 0.5px solid lightgray;
+  border-radius: 2px;
+}
+
+p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+#member_main_content {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#title_member {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#member_form input {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#phone {
+  display: block;
+  clear: both;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+#phone_input {
+  width: 400px;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+#phone select {
+  width: 95px;
+  height: 40px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+#phone input {
+  width: 136.5px;
+  height: 40px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#phone_certification {
+  display: inline-block;
+  float: right;
+  width: 95px;
+  height: 40px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #1C1C1C;
+  border-radius: 2px;
+}
+#input_phone_confirm {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#phone_certification a {
+  height: 40px;
+  text-decoration: none;
+  color: #1C1C1C;
+}
+
+#phone_certification a p {
+  width: 95px;
+  height: 33px;
+  text-align: center;
+  font-size: 13px;
+  margin: 0px;
+  padding: 10px 0px 0px 0px;
+}
+
+#phone_certification_check {
+
+}
+
+#phone_certification_check input {
+  display: inline-block;
+  float: left;
+  width: 179px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-right: 7px;
+  box-sizing: border-box;
+}
+
+#input_phone_certification_confirm {
+  clear: both;
+}
+
+#phone_certification_check_button {
+  display: inline-block;
+  float: left;
+  width: 112px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-right: 7px;
+  box-sizing: border-box;
+  background-color: #0B3861;
+  border-radius: 2px;
+}
+
+#phone_certification_check_button a {
+  text-decoration: none;
+  color: #1C1C1C;
+}
+
+#phone_certification_check_button a p {
+  width: 95px;
+  height: 33px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  margin: 0px;
+  padding: 10px 0px 0px 6px;
+}
+
+#address {
+  display: block;
+  clear: both;
+  width: 400px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#address #address_one {
+  width: 75px;
+  height: 40px;
+}
+
+#address #address_two {
+  width: 188px;
+  height: 40px;
+}
+
+#address #address_three {
+  width: 126px;
+  height: 40px;
+}
+
+#email {
+  display: inline-block;
+  width: 100%;
+}
+
+#email_input {
+  display: inline-block;
+  width: 100%;
+}
+
+#email #email_one {
+  width: 179px;
+  height: 40px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#email input {
+  width: 97px;
+  height: 40px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#email select {
+  width: 95px;
+  height: 40px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+#email_certification {
+  display: inline-block;
+  float: left;
+  width: 95px;
+  height: 40px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #1C1C1C;
+  border-radius: 2px;
+}
+
+#email_certification a {
+  text-decoration: none;
+  color: #1C1C1C;
+}
+
+#email_certification a p {
+  width: 95px;
+  height: 33px;
+  text-align: center;
+  font-size: 13px;
+  margin: 0px;
+  padding: 10px 0px 0px 0px;
+}
+
+#email_certification_check {
+
+}
+
+#email_certification_check input {
+  display: inline-block;
+  float: left;
+  width: 179px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-right: 7px;
+  box-sizing: border-box;
+}
+
+#input_email_certification_confirm {
+  clear: both;
+}
+
+#email_certification_check_button {
+  display: inline-block;
+  float: left;
+  width: 112px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-right: 7px;
+  box-sizing: border-box;
+  background-color: #0B3861;
+  border-radius: 2px;
+}
+
+#email_certification_check_button a {
+  text-decoration: none;
+  color: #1C1C1C;
+}
+
+#email_certification_check_button a p {
+  width: 95px;
+  height: 33px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  margin: 0px;
+  padding: 10px 0px 0px 6px;
+}
+
+#check_box {
+  clear: both;
+  margin: 40px 0px 30px 0px;
+}
+
+#check_box input {
+  width: 13px;
+  height: 13px;
+}
+
+#check_box span {
+  margin: 0;
+  padding: 0;
+}
+
+#check_box a {
+  font-size: 11px;
+  text-decoration: underline;
+  color: #F23005;
+}
+
+#all_agree_span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#button {
+  width: 400px;
+  height: 40px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+#cancel {
+  display: inline-block;
+  float: left;
+  width: 130px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  box-sizing: border-box;
+  background-color: gray;
+  border-radius: 2px;
+}
+
+#cancel a {
+  text-decoration: none;
+}
+
+#cancel a p {
+  display: inline-block;
+  width: 130px;
+  height: 38px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  margin: 0px;
+  padding: 10px 0px 0px 0px;
+}
+
+#signup {
+  display: inline-block;
+  float: left;
+  width: 130px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+#signup input {
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  font-size: 13px;
+  background-color: #F23005;
+  border: 1px solid #F23005;
+  color: white;
+  margin: 0px;
+}
+
+/* terms_of_use css */
+#tou_main_content {
+  width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  font-size: 12px;
+}
+
+#title_tou {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+#title_tou h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

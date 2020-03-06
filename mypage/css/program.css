@@ -1,0 +1,192 @@
+#program_list {
+  width: 714px;
+}
+
+.checkbox_div {
+  display: inline-block;
+  float: right;
+}
+
+.checkbox_div input {
+  width: 16px;
+  height: 16px;
+  margin-top: 60px;
+  border: 1px solid black;
+}
+
+#all_check {
+  clear: both;
+  width: 714px;
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+#all_check span {
+  float: right;
+  padding-top: 5px;
+  margin-left: 10px;
+}
+
+#all_check #btn_submit {
+  width: 100px;
+  height: 28px;
+  padding: 3px 15px;
+  font-size: 13px;
+  border-radius: 2px;
+  border: 0.5px solid black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+#all_check input {
+  float: right;
+  margin-top: 6px;
+  margin-right: 2px;
+  margin-left: 10px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid black;
+}
+
+.program_li {
+  display: inline-block;
+  float: left;
+  width: 680px;
+  height: 140px;
+  border-top: 0.5px solid lightgray;
+  border-bottom: 0.5px solid lightgray;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.program_pick_li {
+  display: inline-block;
+  float: left;
+  width: 714px;
+  height: 150px;
+  border-top: 0.5px solid lightgray;
+  border-bottom: 0.5px solid lightgray;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.program_image {
+  display: inline-block;
+  float: left;
+  width: 160px;
+  height: 138px;
+  border: 0px;
+}
+
+.program_image img {
+  box-sizing: border-box;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  width: 160px;
+  height: 140px;
+  border: 0;
+}
+
+.program_detail {
+  display: inline-block;
+  float: left;
+  width: 350px;
+  margin-top: 4px;
+  margin-left: 20px;
+}
+
+.program_detail div {
+  margin-bottom: 10px;
+}
+
+.info_1 {
+  font-size: 12px;
+}
+
+.info_2 {
+  font-size: 17px;
+}
+
+.info_3 {
+  margin-bottom: 10px !important;
+}
+
+.info_4 {
+  width: 270px;
+  font-weight: bold;
+}
+
+.status{
+  margin-top: -5px;
+}
+
+select {
+  width: 100px;
+  height: 23px;
+}
+.program_buy_day {
+  margin-top: -5px;
+  font-size: 13px;
+  color: #F23005;
+}
+
+.program_price {
+  display: inline-block;
+  float: left;
+  width: 110px;
+  margin-top: 20px;
+  color: #F23005;
+  text-align: center;
+}
+
+.program_price p {
+  font-size: 17px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.program_price p span {
+  font-size: 10px;
+}
+
+.buttons {
+  width: 110px;
+}
+
+.buttons button {
+  margin-bottom: 5px;
+  font-size: 13px;
+  padding: 3px 5px;
+  border-radius: 2px;
+}
+
+.cart_btn{
+  border: 0.5px solid #F23005;
+  background-color: #F23005;
+  color: white;
+}
+
+#delete_btn {
+  border: 0.5px solid gray;
+  background-color: gray;
+  color: white;
+}
+
+#page_num {
+  clear: both;
+  text-align: center;
+  margin: 30px 0
+}
+
+#page_num li {
+  display: inline;
+}

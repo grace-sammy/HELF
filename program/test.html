@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>nth-child demo</title>
+  <style>
+  div {
+    float: left;
+  }
+  span {
+    color: blue;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+<!--
+<div>
+  <ul>
+    <li>
+      <input type="text" name="" value="ho">
+      <input type="text" name="" value="hi">
+    </li>
+    <li>Karl</li>
+    <li>Brandon</li>
+  </ul>
+</div> -->
+<div>
+  <ul>
+    <li>Sam</li>
+  </ul>
+</div>
+
+
+<script>
+ var test = $("ul li:nth-child(1)").value();
+ alert(test);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,214 @@
+#cart_main_content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#program_list {
+  width: 1000px;
+}
+
+.checkbox_div {
+  display: inline-block;
+  float: right;
+}
+
+.checkbox_div input {
+  width: 16px;
+  height: 16px;
+  margin-top: 60px;
+  border: 1px solid black;
+}
+
+#all_check {
+  clear: both;
+  width: 1000px;
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+#all_check #btn_submit {
+  width: 115px;
+  height: 28px;
+  padding: 6px 18px;
+  font-size: 16px;
+  border-radius: 2px;
+  border: 0.5px solid black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+#all_check span {
+  float: right;
+  font-size: 16px;
+  padding-top: 3px;
+  margin-left: 15px;
+}
+
+#all_check input {
+  float: right;
+  margin-top: 6px;
+  margin-right: 2px;
+  margin-left: 15px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid black;
+}
+
+.program_cart_li {
+  display: inline-block;
+  float: left;
+  width: 1000px;
+  height: 160px;
+  border-top: 0.5px solid lightgray;
+  border-bottom: 0.5px solid lightgray;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.program_image {
+  display: inline-block;
+  float: left;
+  width: 180px;
+  height: 158px;
+  border: 0px;
+}
+
+.program_image img {
+  box-sizing: border-box;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  width: 180px;
+  height: 160px;
+  border: 0;
+}
+
+.program_detail {
+  display: inline-block;
+  float: left;
+  width: 620px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.program_detail div {
+  margin-bottom: 13px;
+}
+
+.info_1 {
+  font-size: 15px;
+}
+
+.info_2 {
+  font-size: 22px;
+}
+
+.info_3 {
+  font-size: 15px;
+  margin-bottom: 12px !important;
+}
+
+.info_4 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.program_price {
+  display: inline-block;
+  float: left;
+  width: 110px;
+  margin-top: 20px;
+  color: #F23005;
+  text-align: center;
+}
+
+.program_price p {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.program_price p span {
+  font-size: 13px;
+}
+
+.buttons {
+  width: 110px;
+}
+
+.buttons button {
+  margin-bottom: 5px;
+  font-size: 15px;
+  padding: 3px 5px;
+  border-radius: 2px;
+}
+
+#buy_btn {
+  border: 0.5px solid #F23005;
+  background-color: #F23005;
+  color: white;
+}
+
+#delete_btn {
+  border: 0.5px solid gray;
+  background-color: gray;
+  color: white;
+}
+
+#calculate_price {
+  display: inline-block;
+  clear: both;
+  width: 1000px;
+  height: 60px;
+  border: 5px solid lightgray;
+  margin-top: 30px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#price_div {
+  margin-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+#price_div span {
+  font-size: 25px;
+  font-weight: bold;
+  color: #F23005;
+}
+
+#calculate_buttons {
+  display: inline-block;
+  clear: both;
+  width: 1000px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#calculate_buttons button {
+  font-size: 25px;
+  width: 210px;
+  border-radius: 2px;
+  padding: 10px 0px;
+}
+
+#select_buy_btn {
+  border: 1px solid #F23005;
+  background-color: #F23005;
+  color: white;
+  margin-left: 5px;
+}
+
+#shopping_btn {
+  border: 1px solid #F23005;
+  background-color: white;
+  color: #F23005;
+}

@@ -1,0 +1,77 @@
+button, input[type=button], input[type=submit] {
+  cursor: pointer;
+}
+
+#mypage_container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+section {
+  display: inline;
+  float: left;
+}
+
+aside {
+  display: inline;
+  float: right;
+  margin-top: 88px;
+}
+
+#mypage_main_content {
+  width: 716px;
+  /* margin: 0 auto; */
+}
+
+#title_mypage {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#mypage_buttons {
+  height: 60px;
+  cursor: pointer;
+}
+
+.select_tap {
+  background-color: white !important;
+  border-bottom: 1.5px solid white !important;
+}
+
+#mypage_buttons div {
+  display: inline-block;
+  float: left;
+  width: 119.32px;
+  box-sizing: border-box;
+  border-top: 1.5px solid #BDBDBD;
+  border-left: 1.5px solid #BDBDBD;
+  border-bottom: 1.5px solid #BDBDBD;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #FAFAFA;
+}
+
+#mypage_buttons a {
+  width: 118.756px;
+  height: 40px;
+  text-decoration: none;
+}
+
+#mypage_buttons a p {
+  height: 38px;
+  text-align: center;
+  color: #585858;
+  font-weight: bold;
+  margin: 0px;
+  padding: 14px 0px 0px 0px;
+}
+
+#buy_list {
+  border-right: 1.5px solid #BDBDBD;
+}
+
+#mypage_content {
+  display: block;
+  width: 716px;
+  margin-bottom: 40px;
+}

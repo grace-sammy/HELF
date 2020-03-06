@@ -1,0 +1,60 @@
+#forgot_main_content {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.point_p {
+  color: #F23005;
+  letter-spacing: 1px;
+}
+p {
+  font-size: 13px;
+}
+
+
+input {
+  width: 200px;
+  height: 35px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: 0.5px solid lightgray;
+  box-sizing: border-box;
+}
+
+#find_id_button {
+  width: 200px;
+  border-radius: 2px;
+  background-color: #F23005;
+  border: 1px solid #F23005;
+  color: white;
+  font-size: 13px;
+}
+
+#find_password_button {
+  width: 200px;
+  border-radius: 2px;
+  background-color: white;
+  border: 1px solid #F23005;
+  color: #F23005;
+  font-size: 13px;
+}
+
+#password_certification_button {
+  width: 200px;
+  border-radius: 2px;
+  background-color: #F23005;
+  border: 1px solid #F23005;
+  color: white;
+  font-size: 13px;
+}
+
+#phone_input select {
+  width: 55px;
+  height: 35px;
+  border-radius: 2px;
+}
+
+#phone_input input {
+  width: 55px;
+}

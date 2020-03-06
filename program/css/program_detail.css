@@ -1,0 +1,449 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.clear {
+  display: block;
+}
+
+/* 전체를 감싸는 몸체 */
+#div_main_body {
+  position: relative;
+  width: 1100px;
+  margin: 0px auto;
+}
+
+/* 메인 중심 */
+#div_main {
+  position: relative;
+  text-align: center;
+  float: left;
+  margin: 0px auto;
+  width: 700px;
+  padding: 20px 10px;
+}
+
+#main_img {
+  width: 700px;
+  height: 432px;
+  border-radius: 2px;
+}
+
+#div_main #main {
+  width: 100%;
+}
+
+/* 설명란 또는 구매후기나 평가 적는 부분 */
+#see {
+  text-align: center;
+}
+
+#see h3 {
+  font-size: 18px;
+}
+
+#see .see_body {
+  width: 700px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#see .see_body p {
+  padding-bottom: 40px;
+}
+
+/* .content_ul {
+  margin-bottom: -5px;
+}
+
+.content_ul li {
+  display: inline-block;
+  width: 250px;
+  height: 28px;
+  background-color: pink;
+  font-size: 15px;
+}
+
+.content_ul .content_li {
+  background-color: gray;
+  color: white;
+} */
+/* 사이드 구매쪽 */
+#div_aside {
+  float: left;
+  border: 1px solid lightgray;
+  width: 252px;
+  margin: 0px auto;
+  margin-left: 30px;
+  margin-top: 19px;
+  border-radius: 2px;
+}
+
+#div_aside #pick {
+  background-color: #F23005;
+  color: white;
+}
+
+#div_aside input, form, h2 {
+  padding: 10px;
+}
+
+#div_aside p, h3, select, div {
+  margin-bottom: 30px;
+}
+
+#div_aside h2 {
+  margin-bottom: 20px;
+}
+
+#div_aside h3 {
+  width: 100%;
+  height: 20px;
+}
+
+#div_aside input {
+  width: 100%;
+  color: #F23005;
+  margin-bottom: 3px;
+  border: 1px solid #F23005;
+  font-size: 13px;
+  background-color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#pay {
+  width: 100%;
+  height: 350px;
+  text-align: center;
+}
+
+#pay h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#myHeader {
+  height: 30px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+#myHeader ul {
+  list-style: none;
+  padding-top: 4px;
+}
+
+#myHeader ul li {
+  display: inline-block;
+  width: 23%;
+}
+
+#myHeader ul li a {
+  width: 100%;
+}
+
+#myHeader ul li a:hover {
+  font-weight: bold;
+  color: black;
+}
+
+#cancel {
+  text-align: center;
+  height: 500px;
+  font-size: 13px;
+}
+
+#cancel h3 {
+  font-size: 18px;
+}
+
+.see_body ol {
+  list-style: decimal;
+  padding-left: 10px;
+}
+
+#content_table, #content_table tr, #content_table td {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+}
+
+#content_table {
+  width: 500px;
+  margin-left: 100px;
+}
+
+#content_table tr {
+  height: 32px;
+
+}
+
+.content_td1 {
+  background-color: #555;
+  color: white;
+}
+
+.pay_table table {
+  width: 500px;
+  margin-left: 100px;
+}
+
+.pay_table table td {
+    height: 35px;
+}
+
+.pay_table table th {
+  color: white;
+  width: 30%;
+  height: 35px;
+  border-radius: 2px;
+  background: #F23005;
+}
+
+#sol {
+  width: 9%;
+}
+
+.h_review {
+  height: 32px;
+}
+
+.review_content {
+  list-style: none;
+}
+
+#program_qna {
+  text-align: center;
+  width: 100%;
+}
+
+#page_num {
+  text-align: center;
+}
+
+#program_qna h3 {
+  font-size: 18px;
+}
+
+.div_qna {
+  width: 650px;
+  ;
+}
+
+.qna_head {
+  width: 100%;
+  height: 20px;
+  vertical-align: middle;
+  text-align: initial;
+  background: #F23005;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.qna_subject {
+  display: inline-block;
+  width: 51%;
+  text-align: left;
+}
+
+.qna_id {
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+}
+
+.qna_regist_day {
+  display: inline-block;
+  width: 26%;
+  text-align: right;
+}
+
+.qna_body {
+  text-align: left;
+  width: 640px;
+  height: 80px;
+  margin: 0px;
+}
+
+#question_btn {
+  width: 80px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #F23005;
+  border-radius: 2px;
+  color: #F23005;
+  cursor: pointer;
+}
+
+#review_btn {
+  width: 80px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #F23005;
+  border-radius: 2px;
+  color: #F23005;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.qna_buttons {
+  width: 100%;
+  text-align: left;
+}
+
+#div_review #user_star {
+  background: url('http://localhost/HELF/program/img/five_star.png') no-repeat;
+  background-size: auto 100%;
+  height: 30px;
+  float: left;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+.review_start_img {
+  display: inline-block;
+  width: 150px;
+}
+
+/* 스크롤 내리면서 상단에 고정버튼 생기기게 하는 부분 */
+.buttons {
+  width: 668px;
+  padding: 10px 16px;
+  background: white;
+  border: 1px solid #555;
+  color: #555;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  width: 668px;
+  z-index: 1;
+  position: fixed;
+  top: 130px;
+}
+
+/* 별점 */
+.starR1 {
+  background: url('http://localhost/HELF/program/img/star.jpg') no-repeat -49px 0;
+  background-size: auto 100%;
+  width: 13px;
+  height: 30px;
+  float: left;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+.starR2 {
+  background: url('http://localhost/HELF/program/img/star.jpg') no-repeat -49px 0;
+  background-size: auto 100%;
+  width: 26px;
+  height: 30px;
+  float: left;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+.starR1.on {
+  background-position: 0 0;
+}
+
+.starR2.on {
+  background-position: 0 0;
+}
+
+#h_pay {
+  padding: 0px;
+  margin: 0px;
+}
+
+.purchase_form {
+  padding: 0px;
+  margin: 0px;
+}
+
+.starRev {
+  width: 150px;
+  height: 40px;
+  margin-left: 275px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#div_question {
+  float: left;
+  width: 660px;
+  margin: 5px 0 10px 0;
+}
+
+#div_question div {
+  margin: 0;
+}
+
+#div_answer {
+  float: left;
+  width: 607px;
+  margin: 5px 0 20px 0;
+}
+
+#div_answer div {
+  margin: 0;
+}
+
+.qna_image {
+  float: left;
+}
+
+.qna_image img {
+  height: 30px;
+}
+
+.qna_content {
+  margin: 0px;
+}
+
+.ta_right {
+  display: inline-block;
+  text-align: right;
+}
+
+.review_main {
+  border-bottom: 1px solid lightgray;
+}
+
+.review_main div {
+  margin: 0;
+}
+
+#star_div {
+  width: 700px;
+  text-align: center;
+}
+
+#reviwe_content {
+  width: 690px;
+  height: 90px;
+  border-radius: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+#div_aside #program_ranking * {
+  margin-bottom: 0px;
+  padding-right: 0px;
+}
+
+#div_aside #aside_keyword{
+  border: none;
+  margin-left: 10px;
+}
+
+
+#div_aside #keyword_area li img {
+    width: 150px;
+    height: 120px;
+}

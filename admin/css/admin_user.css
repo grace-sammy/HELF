@@ -1,0 +1,200 @@
+* {
+  border-collapse: collapse;
+}
+
+#content_title p {
+  display: inline-block;
+  font-size: 14px;
+  color: #424242;
+  float: right;
+  padding-top: 15px;
+  font-weight: normal;
+}
+
+#page_num {
+  text-align: center;
+  margin: 30px 0
+}
+
+#page_num li {
+  display: inline;
+}
+
+.collapsible {
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-radius: 2px;
+  margin: 0.5rem 0 1rem 0;
+  /* 하늘지정값 */
+  width: 847px !important;
+}
+
+.collapsible .collection {
+  margin: 0;
+  border: none;
+}
+
+.collapsible span.badge {
+  margin-left: auto;
+}
+
+.collapsible-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  line-height: 1.5;
+  background-color: #fff;
+  /* 하늘지정값 */
+  width: 847px;
+  height: 40px;
+  border-bottom: 0.5px solid lightgray;
+  border-radius: 2px;
+  padding-top: 9px;
+}
+
+.collapsible-header span {
+  font-size: 19px;
+  padding-left: 15px;
+}
+
+.collapsible-header:focus {
+  border-radius: 2px;
+  outline: 0;
+}
+
+/* .collapsible-header i {
+  width: 2rem;
+  font-size: 1.6rem;
+  display: inline-block;
+  text-align: center;
+  margin-right: 1rem;
+} */
+.keyboard-focused .collapsible-header:focus {
+  background-color: #eee;
+}
+
+.collapsible-body {
+  display: none;
+  border-bottom: 1px solid #ddd;
+  -webkit-box-sizing: border-box;
+  /* 하늘지정값 */
+  /* padding: 10px; */
+  width: 848px;
+  font-size: 18px;
+  margin: 0;
+}
+
+table {
+  width: 848px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+#first_tr, #first_tr td{
+  border-top: 0px;
+}
+
+tr, td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.td1 {
+  width: 172px;
+  height: 25px;
+  padding: 5px 10px;
+  background-color: #F2F2F2;
+}
+
+.td2 {
+  width: 170px;
+  height: 25px;
+  padding: 5px 10px;
+}
+
+.td3 {
+  padding: 5px 10px;
+}
+
+.butoon_col {
+  margin: 15px auto;
+  text-align: center;
+}
+
+select {
+  width: 260px;
+  height: 25px;
+  border: 0px;
+  font-size: 16px;
+}
+
+.butoon_col button {
+  width: 100px;
+  height: 27px;
+  font-size: 15px;
+  border: 1px solid #F23005;
+  background-color: white;
+  color: #F23005;
+}
+
+.sidenav .collapsible,
+.sidenav.fixed .collapsible {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.sidenav .collapsible li,
+.sidenav.fixed .collapsible li {
+  padding: 0;
+}
+
+.sidenav .collapsible-header,
+.sidenav.fixed .collapsible-header {
+  background-color: transparent;
+  border: none;
+  line-height: inherit;
+  height: inherit;
+  padding: 0 16px;
+}
+
+.sidenav .collapsible-header:hover,
+.sidenav.fixed .collapsible-header:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* .sidenav .collapsible-header i,
+.sidenav.fixed .collapsible-header i {
+  line-height: inherit;
+} */
+.sidenav .collapsible-body,
+.sidenav.fixed .collapsible-body {
+  border: 0;
+  background-color: #fff;
+}
+
+.sidenav .collapsible-body li a,
+.sidenav.fixed .collapsible-body li a {
+  padding: 0 23.5px 0 31px;
+}
+
+.collapsible.popout {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.collapsible.popout>li {
+  margin: 0 24px;
+  -webkit-transition: margin 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: margin 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.collapsible.popout>li.active {
+  margin: 16px 0;
+}

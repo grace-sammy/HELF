@@ -1,0 +1,140 @@
+body {
+  font-family: "Nanum Gothic", "맑은 고딕";
+  font-size: 14px;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Noto Sans KR', "Nanum Gothic", "맑은 고딕";
+}
+ul { list-style-type: none; }
+#message_buttons{
+  position: relative;
+  z-index: 200;
+}
+#message_main_content {
+  width: 716px;
+  min-height: 580px;
+  margin: 0 auto;
+}
+
+#title_message {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+ul.tab {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+  height: 32px; /*--Set height of tabs--*/
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+  width: 100%;
+  z-index: 202;
+}
+ul.tab li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+  line-height: 31px; /*--Vertically aligns the text within the tab--*/
+  border: 1px solid #999;
+  border-left: none;
+  margin-bottom: -1px; /*--Pull the list item down 1px--*/
+  overflow: hidden;
+  position: relative;
+  background: #e0e0e0;
+
+}
+ul.tab li a {
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  font-size: 1.2em;
+  padding: 0 20px;
+  /*--Gives the bevel look with a 1px white border inside the list item--*/
+  border: 1px solid #fff; 
+  outline: none;
+}
+ul.tab li a:hover {
+  background: #ccc;
+}
+/* ul.tab li a.selected, ul.tab li a.selected a:hover  {
+   /*--Makes sure that the active tab does not listen to the hover properties--*/
+  /* background: #fff; */
+  /*--Makes the active tab look like it's connected with its content--*/
+  /* border-bottom: 1px solid #fff; */
+/* } */
+
+#message_content {
+  position: relative;
+  border: 1px solid #999;
+  border-top: none;
+  overflow: hidden;
+  clear: both;
+  float: left; 
+  width: 100%;
+  height: 440px;
+  background: #fff;
+  z-index: 100;
+}
+/* 수신/송신 쪽지함(message_box.php) */
+.message li { padding: 10px; border-bottom: solid 1px #dddddd;}
+.message li:nth-child(1) { font-weight: bold; }
+.message span {	display: inline-block; text-align: center; }
+.message .title { font-weight: bold; }
+.message .col1 { width: 80px; }
+.message .col2 { width: 210px; text-align: left; }
+.message .col3 { width: 120px; }
+.message .col4 { width: 150px; }
+#page_num {	text-align: center;	margin: 30px 0 }
+#page_num li { display: inline; }
+
+#message_main_content .bottom_buttons { box-sizing: border-box; display: inline-block; width: 100%; text-align: right; margin: 16px;}
+#message_main_content .bottom_buttons { padding-right:20px;}
+
+/* 쪽지 보내기(message_form.php) */
+#write_msg { padding: 0 20px; }
+#write_msg span { display: inline-block; }
+#write_msg .col1 { width: 100px; }
+#write_msg li {	padding: 12px; border-bottom: solid 1px #dddddd; vertical-align: top;}
+#write_msg input { width: 500px; height: 25px; }
+#write_msg textarea { width: 500px;	height: 150px; resize: none;}
+#write_msg #text_area {	position: relative;	height: 158px; }
+#write_msg #text_area .col1 { position: absolute; top: 10px; }
+#write_msg #text_area .col2 { position: absolute; left: 117px; }
+#write_msg .bottom_buttons { text-align: right; padding-right: 30px;}
+#message_box .top_buttons  { text-align: right; margin: 20px 0 20px 0; }
+#message_box .top_buttons li { display: inline; margin-right: 20px; }
+#message_box .top_buttons a:link { text-decoration: underline; color: green; }
+#message_box .top_buttons a:visited { text-decoration: underline; color: green; }
+
+/* 쪽지함 보기(message_view.php) */
+#message_box { width: 800px; margin: 0 auto; }
+#message_box .title { margin-top: 30px; padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#view_content {padding-right: 40px;}
+#view_content li:nth-child(1) {	padding: 15px; border-bottom: solid 1px #aaaaaa; }
+#view_content .col2 { float: right; }
+#view_content li:nth-child(2) {	padding: 15px 15px 80px 15px; border-bottom: solid 1px #cccccc; }
+#view_content li:nth-child(3) button { padding: 5px 20px; margin: 15px 0 40px 720px; cursor: pointer; }
+.buttons { text-align: right; margin: 20px 20px 40px 0; padding-right: 20px;}
+.buttons li { display: inline; }
+.buttons button { padding: 5px 10px; cursor: pointer; }
+
+/* 아이디 자동완성 */
+#receive_id_list {
+	display: none;
+}
+#write_msg #receive_id_list .id_lists{
+  position: relative;
+  left:60px;
+  border: 0;
+  padding: 12px;
+  color: #999;
+  vertical-align: top;
+  cursor: pointer;
+}

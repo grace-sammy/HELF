@@ -1,0 +1,137 @@
+#regist_table {
+  width: 850px;
+  padding: 30px 5px;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+table, tr, td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+}
+
+input {
+  height: 28px;
+  border: 0px;
+}
+
+#input_shop {
+  width: 400px;
+}
+
+#input_subject {
+  width: 700px;
+}
+
+#input_num {
+  width: 190px;
+}
+
+textarea {
+  width: 727px;
+  height: 150px;
+  border: 0px;
+  padding-top: 3px;
+  font-family: "맑은 고딕";
+}
+
+#ul_plus #option_choose {
+  width: 308px;
+}
+
+#ul_plus input {
+  width: 182.5px;
+  height: 28px;
+  margin-bottom: 5px;
+}
+
+#ul_plus button {
+  width: 80px;
+  height: 31px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  background-color: #F2F2F2;
+}
+
+select {
+  height: 32px;
+  width: 150px;
+  font-size: 13px;
+  border: 0px;
+}
+
+#select_location select {
+  width: 167px;
+  height: 30px;
+  box-sizing: content-box;
+}
+
+#input_location {
+  margin-left: 10px;
+  width: 300px;
+  height: 27px;
+  font-size: 13px;
+}
+
+.td_width {
+  width: 100px;
+  height: 30px;
+  background-color: #F2F2F2;
+}
+
+#button_td {
+  text-align: center;
+}
+
+input[type="date"] {
+  width: 190px;
+  font-family: "맑은 고딕";
+}
+
+input[type=submit] {
+  width: 100px;
+  height: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  border: 1px solid #F23005;
+  background-color: #F23005;
+  border-radius: 2px;
+  color: white;
+}
+#option_plus {
+  margin-left: 5px;
+  margin-right: 3px;
+}
+#td_plus li {
+  height: 31px;
+}
+
+input[type="date"]::-webkit-outer-spin-button,
+input[type="date"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#submit_div {
+  width: 850px;
+  text-align: center;
+}
+
+input:-webkit-autofill {
+   -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+#btn_regist{
+  width: 70px;
+  height: 40px;
+  background: #F23005;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 40px;
+}
